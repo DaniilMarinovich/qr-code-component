@@ -1,0 +1,39 @@
+:root {
+  --color-primary: #ffffff;
+  --color-text-primary: #1f314f;
+  --color-text-secondaty: #68778d;
+  --color-bg: #d5e1ef;
+
+  --font-family-primary: 'Outfit', sans-serif;
+  --font-family-main: 'Outfit', bold;
+
+  --spacing-xs: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-xl: 2.5rem;
+
+  --font-size-xs: 0.9375rem;
+  --font-size-xl: 1.375rem;
+
+  --line-height-xs: 120%;
+  --line-height-xl: 140%;
+
+  --font-weight-xs: 400;
+  --font-weight-xl: 700;
+}
+
+html,
+body,
+#root {
+  min-height: 100dvh;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
